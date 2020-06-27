@@ -1,6 +1,6 @@
 import React from 'react';
 
-class RouletteGun {
+class RouletteGun extends React.Component{
   static defaultProps = {
     bulletInChamber: 8,
   };

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component expands the first sections when first button is clicked 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <h1>
+      Section 1
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+      Expand
+    </button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <h1>
+      Section 2
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+      Expand
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <h1>
+      Section 3
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+      Expand
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordian Component renders only titles given default props 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <h1>
+      Section 1
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+      Expand
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <h1>
+      Section 2
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+      Expand
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <h1>
+      Section 3
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+      Expand
+    </button>
+  </li>
+</ul>
+`;

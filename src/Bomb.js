@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Bomb {
+class Bomb extends React.Component{
   constructor() {
     this.interval;
     this.state = { count: 0 };

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class HelloWorld {
+class HelloWorld extends React.Component {
   state = { message: 'Freind' }
   render() {
     setMsg(msg) {

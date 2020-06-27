@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./style.css";
+import Accordian from "../Accordian";
 
 class App extends Component {
   render() {
-    return <div className="App">Hello World</div>;
+    return <Accordian />
   }
 }
 
